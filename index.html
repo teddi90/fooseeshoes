@@ -1,0 +1,444 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>fooseshoes</title>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css"/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/jquery.fancybox-thumbs.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header__top">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-auto"><a class="header__logo" href="#">fooseshoes</a></div>
+            <div class="col-auto">
+              <div class="header__top-search d-none d-md-inline-block">
+                <input class="input__search" type="search" list="suggestions" placeholder="SEARCH"/>
+                <datalist id="suggestions">
+                  <option value="MENS SHOES"></option>
+                  <option value="KIDS"></option>
+                </datalist>
+                <button class="btn-search"><i class="fas fa-search"></i></button>
+              </div><a class="authorization" href="#" data-toggle="modal" data-target="#orderCall">LOGIN or REGISTER</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__menu">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-md-auto">
+              <ul>
+                <li class="d-none d-md-block"><a class="active" href="index.html">Home</a></li>
+                <li class="d-none d-md-block"><a href="product.html">Products</a></li>
+                <li class="d-none d-md-block"><a href="#">About</a></li>
+                <li class="d-none d-md-block"><a href="#">Pages</a></li>
+                <li class="d-none d-md-block"><a href="#">Blog</a></li>
+                <li class="d-none d-md-block"><a href="#">Contact</a></li>
+                <li class="d-md-none"><a class="mobile-menu" href="#"><i class="fas fa-bars"></i></a></li>
+                <li class="d-md-none"><a class="mobile-search" href="#"><i class="fas fa-search"></i></a></li>
+                <li class="d-lg-none"><a class="btn-wishlist" href="#"><i class="far fa-star"></i>
+                    <div class="squer"><span>30	</span></div></a></li>
+                <li class="d-lg-none"><a class="btn-wishlist" href="#"><i class="fas fa-shopping-cart"></i>
+                    <div class="squer"><span>0	</span></div></a></li>
+              </ul>
+            </div>
+            <div class="col-md-auto d-none d-lg-block">
+              <ul class="wishlist">
+                <li><a href="#"><i class="far fa-star"></i>
+                    <div class="squer"><span>30	</span></div></a></li>
+                <li><a href="#"><i class="fas fa-shopping-cart"></i>
+                    <div class="squer"><span>0</span></div></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="mobile__search">
+          <input type="search" placeholder="SEARCH"/>
+        </div>
+        <div class="mobile__menu-list">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__slider">
+        <div class="header__slide-1">
+          <div class="container">
+            <div class="row justify-content-end">
+              <div class="col-md-6 col-lg-5">
+                <div class="header__slider-container">
+                  <div class="sticker">145,99$</div>
+                  <h1>pink shoes 2013 collection</h1>
+                  <p>Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci. Donec dignissim dolor eget..</p>
+                  <div class="header__options-btn"><a href="#"><i class="far fa-eye"></i></a><a href="#"><i class="far fa-star"></i></a><a href="#"><i class="fas fa-share-square"></i></a><a href="#"><i class="fas fa-cart-arrow-down"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__slide-2">
+          <div class="container">
+            <div class="row justify-content-end">
+              <div class="col-md-6 col-lg-5">
+                <div class="header__slider-container">
+                  <div class="sticker">199,99$</div>
+                  <h1>Anna Field </h1>
+                  <p>Limited Edition</p>
+                  <div class="header__options-btn"><a href="#"><i class="far fa-eye"></i></a><a href="#"><i class="far fa-star"></i></a><a href="#"><i class="fas fa-share-square"></i></a><a href="#"><i class="fas fa-cart-arrow-down"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__slide-3">
+          <div class="container">
+            <div class="row justify-content-end">
+              <div class="col-md-6 col-lg-5">
+                <div class="header__slider-container">
+                  <div class="sticker">249,99$</div>
+                  <h1>prada </h1>
+                  <p>Summer is coming..</p>
+                  <div class="header__options-btn"><a href="#"><i class="far fa-eye"></i></a><a href="#"><i class="far fa-star"></i></a><a href="#"><i class="fas fa-share-square"></i></a><a href="#"><i class="fas fa-cart-arrow-down"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider__pagination">
+        <div class="slider-bar"></div>
+        <div class="slide-btn1">
+          <h4>Pink Shoes</h4><span>Now af $145,99</span>
+        </div>
+        <div class="slide-btn2">
+          <h4>Anna Field</h4><span>Limited Edition</span>
+        </div>
+        <div class="slide-btn3">
+          <h4>Prada</h4><span>Summer is coming			</span>
+        </div>
+      </div>
+    </header>
+    <section class="offers">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-md-4"><a class="offers__box" href=""><img class="img-fluid" src="images/offer1.jpg" alt=""/>
+              <h3>on sale</h3></a></div>
+          <div class="col-sm-6 col-md-4"><a class="offers__box" href=""><img class="img-fluid" src="images/offer2.jpg" alt=""/>
+              <h3>special offers</h3></a></div>
+          <div class="col-sm-6 col-md-4"><a class="offers__box" href=""><img class="img-fluid" src="images/offer3.jpg" alt=""/>
+              <h3>must have</h3></a></div>
+        </div>
+      </div>
+    </section>
+    <section class="products">
+      <div class="product__nav">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-sm-auto">
+              <h2>New arrivals on FooseShoes</h2>
+            </div>
+            <div class="col-auto">
+              <div class="product__nav-sort"><a class="btn__show-all" href="#">Show All		</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="product">
+              <figure>
+                <div class="product__img"><a href="#"><img class="img-fluid" src="images/shoes1.jpg"/></a></div>
+                <figcaption>
+                  <div class="product__options"><a href="#"><i class="far fa-eye"></i></a><a href="#"><i class="far fa-star"></i></a><a href="#"><i class="fas fa-share-square"></i></a><a href="#"><i class="fas fa-cart-arrow-down"></i></a></div>
+                  <div class="product__caption">Even&Odd</div>
+                  <div class="product__price">$145,99</div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="product">
+              <figure>
+                <div class="product__stiker"> <span>on sale!</span></div>
+                <div class="product__img"><a href="#"><img class="img-fluid" src="images/shoes2.jpg"/></a></div>
+                <figcaption>
+                  <div class="product__options"><a href="#"><i class="far fa-eye"></i></a><a href="#"><i class="far fa-star"></i></a><a href="#"><i class="fas fa-share-square"></i></a><a href="#"><i class="fas fa-cart-arrow-down"></i></a></div>
+                  <div class="product__caption">Even&Odd</div>
+                  <div class="product__price">$145,99</div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="product">
+              <figure>
+                <div class="product__img"><a href="#"><img class="img-fluid" src="images/shoes3.jpg"/></a></div>
+                <figcaption>
+                  <div class="product__options"><a href="#"><i class="far fa-eye"></i></a><a href="#"><i class="far fa-star"></i></a><a href="#"><i class="fas fa-share-square"></i></a><a href="#"><i class="fas fa-cart-arrow-down"></i></a></div>
+                  <div class="product__caption">Buffalo Decolletè</div>
+                  <div class="product__price">$145,99</div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product__nav">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-sm-auto">
+              <h2>Best sellers of the month</h2>
+            </div>
+            <div class="col-auto">
+              <div class="product__nav-sort"><a class="btn__show-all" href="#">Show All		</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="product">
+              <figure>
+                <div class="product__img"><a href="#"><img class="img-fluid" src="images/shoes4.jpg"/></a></div>
+                <figcaption>
+                  <div class="product__options"><a href="#"><i class="far fa-eye"></i></a><a href="#"><i class="far fa-star"></i></a><a href="#"><i class="fas fa-share-square"></i></a><a href="#"><i class="fas fa-cart-arrow-down"></i></a></div>
+                  <div class="product__caption">Prada</div>
+                  <div class="product__price">$145,99</div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="product">
+              <figure>
+                <div class="product__img"><a href="#"><img class="img-fluid" src="images/shoes5.jpg"/></a></div>
+                <figcaption>
+                  <div class="product__options"><a href="#"><i class="far fa-eye"></i></a><a href="#"><i class="far fa-star"></i></a><a href="#"><i class="fas fa-share-square"></i></a><a href="#"><i class="fas fa-cart-arrow-down"></i></a></div>
+                  <div class="product__caption">Even&Odd</div>
+                  <div class="product__price">$145,99</div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="product">
+              <figure>
+                <div class="product__stiker orange"> <span>out of stock</span></div>
+                <div class="product__img"><a href="#"><img class="img-fluid" src="images/shoes6.jpg"/></a></div>
+                <figcaption>
+                  <div class="product__options"><a href="#"><i class="far fa-eye"></i></a><a href="#"><i class="far fa-star"></i></a><a href="#"><i class="fas fa-share-square"></i></a><a href="#"><i class="fas fa-cart-arrow-down"></i></a></div>
+                  <div class="product__caption">Buffalo Decolletè</div>
+                  <div class="product__price">$145,99</div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="product__news">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="border-top"></div>
+            </div>
+            <div class="col-lg-3 d-none d-lg-block"><a href="#">
+                <article>
+                  <h3>free shiping</h3>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nostrum, voluptate autem. Nemo deserunt, quo enim atque rerum quasi eius alias at accusamus molestiae, explicabo officiis unde! Ipsum sunt, corporis rerum, minus nobis iure, eaque, libero odit eius quisquam velit.	</p>
+                </article></a></div>
+            <div class="col-md-4 col-lg-3"><a href="#">
+                <article>
+                  <h3>testimonials</h3>
+                  <p> vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]</p><span>- John Doe -	</span>
+                </article></a></div>
+            <div class="col-md-8 col-lg-6">
+              <div class="product__new-1">
+                <article>
+                  <h3>blog news</h3>
+                  <div class="product__new"><a href="#">
+                      <h4>Nice & Clean. The best for you blog!</h4>
+                      <p> Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel </p></a><a class="product__new-pubdate" href="#"><span>apr 01</span></a></div>
+                  <div class="product__new"><a href="#">
+                      <h4>Another Belllo theme!</h4>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nostrum.</p></a><a class="product__new-pubdate" href="#"><span>apr 01		</span></a></div>
+                </article>
+              </div>
+              <div class="product__new-2">
+                <article>
+                  <h3>blog news</h3>
+                  <div class="product__new"><a href="#">
+                      <h4>Lorem ipsum dolor sit amet!</h4>
+                      <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, nisi!</p></a><a class="product__new-pubdate" href="#"><span>apr 02	</span></a></div>
+                </article>
+              </div>
+              <div class="product__new-3">
+                <article>
+                  <h3>blog news</h3>
+                  <div class="product__new"><a href="#">
+                      <h4>Nice & Clean. The best for you blog!</h4>
+                      <p> Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel </p></a><a class="product__new-pubdate" href="#"><span>apr 03</span></a></div>
+                  <div class="product__new"><a href="#">
+                      <h4>Another Belllo theme!</h4>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nostrum.</p></a><a class="product__new-pubdate" href="#"><span>apr 03</span></a></div>
+                  <div class="product__new"><a href="#">
+                      <h4>Lorem ipsum dolor sit amet!</h4>
+                      <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, nisi!</p></a><a class="product__new-pubdate" href="#"><span>apr 03		</span></a></div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer>
+      <div class="footer__widgets">
+        <div class="container pad55">
+          <div class="row justify-content-between">
+            <div class="col-md-5 col-lg-4">
+              <div class="footer__widget">
+                <h4>text widget</h4>
+                <p> Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+              <div class="footer__widget">
+                <div class="twetter__widget-1">
+                  <h4>twiter widget</h4>
+                  <p><a href="#">@ericafustero </a> Why thank you. Your work looks awesome by the way! <a href="#">@treemelody</a> <span class="widget-pubdate">19 days ago</span></p>
+                  <p><a href="#">@roymarvelous </a> You can seek a refund through TF if is not as advertised- but it is :) <span class="widget-pubdate">21 days ago</span></p>
+                </div>
+                <div class="twetter__widget-2">
+                  <h4>twiter widget</h4>
+                  <p><a href="#">@teddi </a> Lorem ipsum dolor sit amet, consectetur adipisicing. <a href="#">@treemelody</a> <span class="widget-pubdate">18 days ago</span></p>
+                </div>
+                <div class="twetter__widget-3">
+                  <h4>twiter widget</h4>
+                  <p><a href="#">@motakaman </a> Why thank you. Your work looks awesome by the way! <a href="#">@treemelody</a> <span class="widget-pubdate">14 days ago</span></p>
+                  <p><a href="#">@motakaman </a> You can seek a refund through TF if is not as advertised- but it is :) <span class="widget-pubdate">13 days ago</span></p>
+                </div>
+                <div class="twetter__widget-4">
+                  <h4>twiter widget</h4>
+                  <p><a href="#">@ericafustero </a> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis amet, magni eligendi, architecto quidem et. <span class="widget-pubdate">6 days ago</span></p>
+                  <p><a href="#">@roymarvelous </a> You can seek a refund through TF if is not as advertised- but it is :) <span class="widget-pubdate">4 days ago</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 col-lg-4">
+              <div class="footer__widget">
+                <h4>flickr widget</h4>
+                <div class="row">
+                  <div class="col-4">
+                    <div class="footer__widget-fancybox"><img class="img-fluid" src="images/cartoon-thumbnail1.jpg" alt=""/><a class="fancybox-thumb fancybox-zoom" rel="fancybox-thumb" href="images/cartoon1.jpg" title=""></a></div>
+                  </div>
+                  <div class="col-4">
+                    <div class="footer__widget-fancybox"><img class="img-fluid" src="images/cartoon-thumbnail2.jpg" alt=""/><a class="fancybox-thumb fancybox-zoom" rel="fancybox-thumb" href="images/cartoon2.jpg" title=""></a></div>
+                  </div>
+                  <div class="col-4">
+                    <div class="footer__widget-fancybox"><img class="img-fluid" src="images/cartoon-thumbnail3.jpg" alt=""/><a class="fancybox-thumb fancybox-zoom" rel="fancybox-thumb" href="images/cartoon3.jpg" title=""></a></div>
+                  </div>
+                  <div class="col-4">
+                    <div class="footer__widget-fancybox"><img class="img-fluid" src="images/cartoon-thumbnail4.jpg" alt=""/><a class="fancybox-thumb fancybox-zoom" rel="fancybox-thumb" href="images/cartoon4.jpg" title=""></a></div>
+                  </div>
+                  <div class="col-4">
+                    <div class="footer__widget-fancybox"><img class="img-fluid" src="images/cartoon-thumbnail5.jpg" alt=""/><a class="fancybox-thumb fancybox-zoom" rel="fancybox-thumb" href="images/cartoon5.jpg" title=""></a></div>
+                  </div>
+                  <div class="col-4">
+                    <div class="footer__widget-fancybox"><img class="img-fluid" src="images/cartoon-thumbnail6.jpg" alt=""/><a class="fancybox-thumb fancybox-zoom" rel="fancybox-thumb" href="images/cartoon6.jpg" title=""></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__social">
+        <div class="container pad55">
+          <div class="row justify-content-between">
+            <div class="col-md-5 col-lg-4">
+              <div class="footer__mail">
+                <input type="mail" id="mail" placeholder="Enter email for newsletter"/>
+                <button><i class="fas fa-angle-right"></i></button>
+              </div>
+            </div>
+            <div class="col-md-auto ta-c">
+              <div class="footer__social-box"><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></div>
+              <div class="footer__social-box"><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></div>
+              <div class="footer__social-box"><a class="gplus" href="#"><i class="fab fa-google-plus-g"></i></a></div>
+              <div class="footer__social-box"><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></div>
+              <div class="footer__social-box"><a class="flikr" href="#"><i class="fab fa-flickr"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-md-auto order-end">
+              <h4>Copyright Fooseshoes 2012							</h4>
+              <h4>Designed by Belllo. Powered by Wordpress	</h4>
+            </div>
+            <div class="col-md-auto">
+              <div class="footer__copyright-links"><a href="#">Home</a> / <a href="#">Support </a> / <a href="#">Terms and Conditions</a> / <a href="#">Faqs</a> / <a href="#">Contact us</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer><!-- Order a Call -->
+    <div class="modal fade" id="orderCall" tabindex="-1" role="dialog" aria-labelledby="orderAcall" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3>Sign in or Register</h3>
+            </div>
+          </div>
+          <div class="modal-body">
+            <form class="ask" action="#">
+              <div class="row">
+                <div class="col-12 ta-c"><span class="input input--minoru">
+                    <input class="input__field input__field--yoko" id="modal__input-mail" type="text" name="mail" maxlength="20"/>
+                    <label class="input__label input__label--yoko" for="modal__input-mail"><span class="input__label-content input__label-content--yoko">Login or email</span></label></span></div>
+                <div class="col-12 ta-c"><span class="input input--minoru">
+                    <input class="input__field input__field--yoko" id="modal__input-password" type="password" name="password"/>
+                    <label class="input__label input__label--yoko" for="modal__input-password"><span class="input__label-content input__label-content--yoko">Password</span></label></span></div>
+                <div class="col-12 ta-c">
+                  <button class="btn" type="submit">Sign in</button>
+                </div>
+                <div class="col-12 ta-c">
+                  <button class="btn" type="submit">Register	</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div><!-- END  Order a Call -->								
+    <script src="js/main.js"></script>
+  </body>
+</html>
